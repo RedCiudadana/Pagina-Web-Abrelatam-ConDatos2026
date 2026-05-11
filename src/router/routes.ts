@@ -1,0 +1,15 @@
+export const ROUTES = {
+  HOME: '/',
+  SOBRE: '/sobre',
+  AGENDA: '/agenda',
+  CONVOCATORIAS: '/convocatorias',
+  SIDE_EVENTS: '/side-events',
+  VIAJE_SEDE: '/datos-utiles-y-logistica',
+  CODIGO_CONDUCTA: '/codigo-conducta',
+  GUIA_PARTICIPANTES: '/guia-participantes',
+  PRENSA: '/prensa',
+  CONTACTO: '/contacto',
+  PRE_REGISTRO: '/registro',
+  NOTICIAS: '/noticias',
+  BLOG_DETAIL: '/noticias/:slug',
+} as const;
